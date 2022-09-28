@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".des_screen">
+
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="88dp"
+        android:text="code"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/Vcode"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/code"
+        android:layout_marginTop="-23dp"
+        android:background="#808080" />
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Vcode"
+        android:layout_marginTop="70dp"
+        android:text="symbol"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/scode"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/symbol"
+        android:layout_marginTop="-22dp"
+        android:background="#808080" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/scode"
+        android:layout_marginTop="71dp"
+        android:text="desc"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/dcode"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/desc"
+        android:layout_marginTop="-22dp"
+        android:background="#808080" />
+
+    <TextView
+        android:id="@+id/Rate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/dcode"
+        android:layout_marginTop="70dp"
+        android:text="rate"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/rcode"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/Rate"
+        android:layout_marginTop="-22dp"
+         android:background="#808080"/>
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/listView"-->
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainBitCoin">
+
+    <TextView
+        android:id="@+id/time_des_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/USD"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/time_des_name"
+        android:layout_marginTop="-371dp"
+        android:gravity="center_horizontal"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/GBP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/USD"
+        android:layout_marginTop="-7dp"
+        android:gravity="center_horizontal"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/EUR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/GBP"
+        android:layout_marginTop="-11dp"
+        android:gravity="center_horizontal"
+        android:textSize="22sp" />
+
+    <!--    <TextView-->
+<!--        android:id="@+id/GBP"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="288dp"-->
+<!--        android:layout_below="@+id/USD"-->
+<!--        android:layout_marginTop="-100dp"-->
+<!--        android:text="Click to load"-->
+<!--        android:textSize="22sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/EUR"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@+id/GBP"-->
+<!--        android:layout_marginTop="-99dp"-->
+<!--        android:text="Click to load"-->
+<!--        android:textSize="22sp" />-->
+
+    <!--    <Button-->
+<!--        android:id="@+id/b"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Start"-->
+<!--        tools:layout_editor_absoluteX="16dp"-->
+<!--        tools:layout_editor_absoluteY="341dp" />-->
+
+</RelativeLayout>
